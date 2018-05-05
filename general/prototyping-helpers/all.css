@@ -126,26 +126,6 @@
 	margin-right: 0 !important;
 }
 
-.display-inline {
-	display: inline !important;
-}
-
-.display-inline-block {
-	display: inline-block !important;
-}
-
-.display-block {
-	display: block !important;
-}
-
-.display-table {
-	display: table !important;
-}
-
-.display-table-cell {
-	display: table-cell !important;
-}
-
 .position-static {
 	position: static !important;
 }
