@@ -1,0 +1,21 @@
+.subheader {
+	margin-top: .2rem;
+	margin-bottom: .5rem;
+	font-weight: normal;
+	line-height: 1.4;
+	color: #8a8a8a;
+}
+
+.lead {
+	font-size: 125%;
+	line-height: 1.6;
+}
+
+.stat {
+	font-size: 2.5rem;
+	line-height: 1;
+}
+
+p + .stat {
+	margin-top: -1rem;
+}
