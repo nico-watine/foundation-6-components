@@ -1,0 +1,120 @@
+.arrow-down {
+	display: block;
+	width: 0;
+	height: 0;
+	border: inset .4375rem;
+	content: '';
+	border-bottom-width: 0;
+	border-top-style: solid;
+	border-color: #0a0a0a transparent transparent;
+}
+
+.arrow-up {
+	display: block;
+	width: 0;
+	height: 0;
+	border: inset .4375rem;
+	content: '';
+	border-top-width: 0;
+	border-bottom-style: solid;
+	border-color: transparent transparent #0a0a0a;
+}
+
+.arrow-right {
+	display: block;
+	width: 0;
+	height: 0;
+	border: inset .4375rem;
+	content: '';
+	border-right-width: 0;
+	border-left-style: solid;
+	border-color: transparent transparent transparent #0a0a0a;
+}
+
+.arrow-left {
+	display: block;
+	width: 0;
+	height: 0;
+	border: inset .4375rem;
+	content: '';
+	border-left-width: 0;
+	border-right-style: solid;
+	border-color: transparent #0a0a0a transparent transparent;
+}
+
+.separator-center {
+	text-align: center !important;
+}
+
+.separator-center::before,
+.separator-center::after {
+	display: table;
+	content: ' ';
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	-ms-flex-order: 1;
+	order: 1;
+}
+
+.separator-center::after {
+	clear: both;
+}
+
+.separator-center::after {
+	position: relative !important;
+	width: 3rem;
+	border-bottom: .125rem solid #2ba6cb;
+	margin: 1rem auto 0;
+}
+
+.separator-left {
+	text-align: left !important;
+}
+
+.separator-left::before,
+.separator-left::after {
+	display: table;
+	content: ' ';
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	-ms-flex-order: 1;
+	order: 1;
+}
+
+.separator-left::after {
+	clear: both;
+}
+
+.separator-left::after {
+	position: relative !important;
+	width: 3rem;
+	border-bottom: .125rem solid #2ba6cb;
+	margin: 1rem auto 0;
+	margin-left: 0 !important;
+}
+
+.separator-right {
+	text-align: right !important;
+}
+
+.separator-right::before,
+.separator-right::after {
+	display: table;
+	content: ' ';
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	-ms-flex-order: 1;
+	order: 1;
+}
+
+.separator-right::after {
+	clear: both;
+}
+
+.separator-right::after {
+	position: relative !important;
+	width: 3rem;
+	border-bottom: .125rem solid #2ba6cb;
+	margin: 1rem auto 0;
+	margin-right: 0 !important;
+}
