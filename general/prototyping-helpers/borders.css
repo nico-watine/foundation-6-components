@@ -1,0 +1,11 @@
+.rounded {
+	border-radius: 5000px !important;
+}
+
+.radius {
+	border-radius: .1875rem;
+}
+
+.bordered {
+	border: .0625rem solid #cacaca;
+}
