@@ -26,6 +26,7 @@ cite {
 	font-size: .8125rem;
 	color: #8a8a8a;
 }
+
 cite:before {
 	content: '— ';
 }
