@@ -1,0 +1,27 @@
+.float-left {
+	float: left !important;
+}
+
+.float-right {
+	float: right !important;
+}
+
+.float-center {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.clearfix::before,
+.clearfix::after {
+	display: table;
+	content: ' ';
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	-ms-flex-order: 1;
+	order: 1;
+}
+
+.clearfix::after {
+	clear: both;
+}
