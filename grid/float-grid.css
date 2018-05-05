@@ -13,14 +13,6 @@ html {
 	box-sizing: inherit;
 }
 
-.is-visible {
-	display: block !important;
-}
-
-.is-hidden {
-	display: none !important;
-}
-
 .row {
 	max-width: 75rem;
 	margin-right: auto;
