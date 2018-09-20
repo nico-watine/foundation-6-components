@@ -61,7 +61,8 @@ input:checked ~ .switch-paddle::after {
 	outline: 0;
 }
 
-.switch-active, .switch-inactive {
+.switch-active,
+.switch-inactive {
 	position: absolute;
 	top: 50%;
 	-ms-transform: translateY(-50%);
